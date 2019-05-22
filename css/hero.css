@@ -7,17 +7,24 @@ header{
 	background-color: #6666ff;
 	padding: 40px;
 	text-align: center;
+	background-image: url('../img/pixel-image-100.png');
+	background-repeat: repeat;
 }
 
 h1{
 	font-size: 90px;
 	color: white;
+	text-shadow: 0 10px 20px black;
+	margin: 50;
+	text-transform: uppercase;
+
 }
 
 header img{
 	border-radius: 175px;
 	width: 300px;
 	border: 5px solid black;
+	box-shadow: 0 10px 20px black;
 }
 
 .content{
@@ -46,6 +53,11 @@ ul{
 a{
 	color:purple;
 	text-decoration: none;
+	background-color: #7385EB;
+}
+
+a:hover{
+	background-color: white;
 }
 
 footer{
